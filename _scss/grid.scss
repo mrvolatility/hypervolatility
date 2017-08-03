@@ -1,0 +1,41 @@
+$color-spaaaace: rgba(white, 0);
+$color-neonpink: rgba(white, .05);
+$color-neonpurple: #BA01FF;
+$color-white: rgba(white, .05);
+$perspective: 200px;
+$rotation: 70deg;
+
+#overflow-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.grid{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  
+  background-color: $color-spaaaace;
+  background-image: linear-gradient($color-white 1px, $color-neonpink 1px, $color-white 2px, transparent 2px),
+  linear-gradient(90deg, $color-white 1px,  $color-neonpink 1px, $color-white 2px, transparent 2px);
+  background-size:3% 3%, 3% 3%;
+  background-position:0 0, 0 0;
+  
+  transform: perspective($perspective) rotateX($rotation);
+  
+  animation: throughSpace 1s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes throughSpace{
+  0%{
+    transform: perspective($perspective) rotateX($rotation) translateY(0%);
+  }
+  100%{
+    transform: perspective($perspective) rotateX($rotation) translateY(5.8%);
+  }
+}

@@ -1,0 +1,45 @@
+.footer {
+	margin-top: 25vh;
+	z-index: 2;
+	position: relative;
+
+	#logo-footer {
+		margin-bottom: 2em;
+		height: 100px;
+		text-align: left;
+		width: 100px;
+	}
+
+	.col-pl-50 a {
+		color: #FFFFFF;
+		font-family: "Open Sans";
+		font-size: 24px;
+		line-height: 43px;
+		&:hover {
+    	color: #1fb6ff;
+    }
+  }
+}
+
+@media (max-width: $tablet-landscape-size) {
+	.claim {
+		margin-top: 1em;
+		font-size: 20px;
+	}
+	.header .menu a {
+		font-size: 16px;
+	}
+
+	.footer {
+		#logo-footer {
+			margin: auto;
+		}
+		.col-pl-50 {
+			text-align: center;
+		}
+		#divider {
+			margin-top: 2em;
+			margin-bottom: 1em;
+		}
+	}
+}

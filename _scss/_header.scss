@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+    display: table;
+    height: 80px;
+    margin: 20px 0px;
+    top: 0;
+    left: 0;
+    .logo {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        #logo {
+            vertical-align: middle;
+            width: 130px;
+        }
+    }
+    .menu {
+        float: right;
+        display: table;
+        height: 100%;
+        a {
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            display: table-cell;
+            vertical-align: middle;
+            padding: 0px 15px;
+            text-decoration: none;
+            color: white;
+            transition-timing-function: linear;
+            transition-duration: .15s;
+        }
+        a:hover, a:active {
+            color: #1fb6ff;
+        }
+    }
+}
+
+$tablet-landscape-size: 991px;
+
+/* Using SCSS variables to store breakpoints */
+
+@media (max-width: $tablet-landscape-size) {
+    .header {
+        display: block;
+        height: auto;
+        margin: 20px 0px;
+        top: 0;
+        left: 0;
+        .logo {
+            display: block;
+            text-align: center;
+            #logo {
+                margin: auto;
+            }
+        }
+        .menu {
+            min-width: 100px;
+            height: auto;
+            text-align: center;
+            margin: 20px auto;
+            float: none;
+            a {
+                display: inline-block;
+                margin-left: 0;
+                margin-right: 20px;
+                padding: 0;
+            }
+            a:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+#canvas {
+    transform: rotate(180deg) !important;
+    position: relative;
+    top: -10px;
+}
