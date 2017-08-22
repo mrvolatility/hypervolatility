@@ -6,7 +6,7 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">  
         <!-- CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pavilion/2.0.3/pavilion.min.css">
     </head>
     <body>
@@ -18,15 +18,15 @@
           <div class="header">
     
               <div class="logo">
-                <a href="/">
+                <a href="{{ site.baseurl }}">
                   <div id="logo"></div>
                 </a>
                 </div>
 
               <div class="menu">
-                <a class="extra" href="/contacts">About Us</a>
-                <a class="extra" href="/contacts">Services</a>
-                <a class="extra" href="/contacts.html">Contacts</a>
+                <a class="extra" href="{{ site.baseurl }}/contacts">About Us</a>
+                <a class="extra" href="{{ site.baseurl }}/contacts">Services</a>
+                <a class="extra" href="{{ site.baseurl }}/contacts.html">Contacts</a>
              </div>
 
           </div>
@@ -83,17 +83,17 @@
 
       <script src="//cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
       <script>
-        new Vivus('arrow', {duration: 30, file: 'img/arrow.svg'});
-        new Vivus('divider', {duration: 100, file: 'img/divider.svg'});
-        new Vivus('logo', {duration: 100, file: 'img/logo.svg'});
-        new Vivus('logo-footer', {duration: 100, file: 'img/logo.svg'});
-        new Vivus('shape', {duration: 5000, file: 'img/shape.svg'});
-        new Vivus('shape1', {duration: 5000, file: 'img/shape.svg'});
-        new Vivus('shape2', {duration: 5000, file: 'img/shape.svg'});
+        new Vivus('arrow', {duration: 30, file: '{{ site.baseurl }}/img/arrow.svg'});
+        new Vivus('divider', {duration: 100, file: '{{ site.baseurl }}/img/divider.svg'});
+        new Vivus('logo', {duration: 100, file: '{{ site.baseurl }}/img/logo.svg'});
+        new Vivus('logo-footer', {duration: 100, file: '{{ site.baseurl }}/img/logo.svg'});
+        new Vivus('shape', {duration: 5000, file: '{{ site.baseurl }}/img/shape.svg'});
+        new Vivus('shape1', {duration: 5000, file: '{{ site.baseurl }}/img/shape.svg'});
+        new Vivus('shape2', {duration: 5000, file: '{{ site.baseurl }}/img/shape.svg'});
       </script>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
-      <script src="/js/app.min.js"></script>
+      <script src="{{ site.baseurl }}/js/app.min.js"></script>
     </div>
   </body>
 </html>
