@@ -27,7 +27,7 @@ $rotation: 70deg;
   
   transform: perspective($perspective) rotateX($rotation);
   
-  animation: throughSpace 1s linear;
+  animation: throughSpace 4s linear;
   animation-iteration-count: infinite;
 }
 
