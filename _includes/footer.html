@@ -1,0 +1,29 @@
+<div class="container-tl">
+  <div class="footer">
+    <div id="logo-footer"></div> <br>
+    <div class="row">
+      <div class="col-pl-50">
+        <a href="#">About</a> <br>
+        <a href="#">Blog</a> <br>
+        <a href="#">About</a>
+      </div>
+      <div class="col-pl-50">
+        <a href="https://www.facebook.com/HyperVolatility-148139215232561/?fref=ts">Facebook</a> <br>
+        <a href="https://twitter.com/vitoturitto" target="_blank">Twitter</a> <br>
+        <a href="https://medium.com/hypervolatility" target="_blank">Medium</a>
+      </div>
+    </div>
+    <div id="divider"></div>
+    <p class="text-center">
+      © All rights reserved
+    </p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+<script src="{{ site.baseurl }}/js/app.min.js"></script>
+
+<script>
+  new Vivus('divider', {duration: 100, file: '{{ site.baseurl }}/img/divider.svg'});
+  new Vivus('logo-footer', {duration: 100, file: '{{ site.baseurl }}/img/logo.svg'});
+</script>

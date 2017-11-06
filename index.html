@@ -13,11 +13,37 @@ title: Hyper Volatility
 
 <div class="grid"></div>
 
-<!-- <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div> -->
+<div class="container-tl">
+  <div class="fields">
+    <h2>Fields</h2>
+    <div class="row">
+      <div class="col-pl-33 field">
+        <div id="shape"></div>
+        <h3>Energy</h3>
+      </div>
+      <div class="col-pl-33 field">
+        <div id="shape1"></div>
+        <h3>Big Data</h3>
+      </div>
+      <div class="col-pl-33 field">
+        <div id="shape2"></div>
+        <h3>Small data</h3>
+      </div>
+    </div>
+    <p class="call-to-action">We are based on data and we deliver value.</p>
+    <p class="text-center">
+      <a href="https://medium.com/hypervolatility" target="_blank">
+        <button class="juicy-button">Read latest market analysis</button>
+      </a>
+    </p>
+  </div>
+</div>
+
+<script src="//cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
+<script>
+  new Vivus('arrow', {duration: 30, file: '{{ site.baseurl }}/img/arrow.svg'});
+  new Vivus('logo', {duration: 100, file: '{{ site.baseurl }}/img/logo.svg'});
+  new Vivus('shape', {duration: 5000, file: '{{ site.baseurl }}/img/shape.svg'});
+  new Vivus('shape1', {duration: 5000, file: '{{ site.baseurl }}/img/shape.svg'});
+  new Vivus('shape2', {duration: 5000, file: '{{ site.baseurl }}/img/shape.svg'});
+</script>

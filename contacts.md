@@ -1,6 +1,12 @@
 ---
 title: Contacts
-layout: default
+layout: page
 ---
 
-Contact us at hi@hypervolatility.com
+# Contacts
+
+## General contacts
+Contact me at quant@hypervolatility.com  
+
+## Inquiries
+inquiries@hypervolatility.com

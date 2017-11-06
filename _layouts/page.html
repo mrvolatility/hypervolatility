@@ -1,5 +1,24 @@
-<h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+      <div id="overflow-wrapper">
+        <div id="canvas"></div>
 
-<div class="container">
-  {{ content }}asdasd
-</div>
+        {% include header.html %}
+
+        <div class="container-tl page">
+            {{ content }}      
+        </div>
+
+        {% include footer.html %}
+
+        <script src="//cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
+        <script>
+            new Vivus('divider', {duration: 100, file: '{{ site.baseurl }}/img/divider.svg'});
+            new Vivus('logo', {duration: 100, file: '{{ site.baseurl }}/img/logo.svg'});
+            new Vivus('logo-footer', {duration: 100, file: '{{ site.baseurl }}/img/logo.svg'});
+        </script>
+
+    </body>
+</html>
