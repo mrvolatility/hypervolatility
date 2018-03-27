@@ -76,7 +76,7 @@ gulp.task('js-work', function () {
 gulp.task('watch', function () {
   gulp.watch('_scss/*.scss', ['sass']);
   gulp.watch('_js/*.js', ['js-work']);
-  gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['*.html', '*.md', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /* Default task, running just `gulp` will compile the sass, compile the jekyll site, launch BrowserSync & watch files. */

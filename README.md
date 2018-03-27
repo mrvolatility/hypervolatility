@@ -29,7 +29,7 @@ To use this starter project, you'll need the following things installed on your 
 This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
 
 ```shell
-$ gulp
+$ bundle exec gulp
 ```
 
 **jekyll**

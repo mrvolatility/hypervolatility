@@ -33,6 +33,7 @@
     "gulp-clean-css": "^3.0.4",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.1.2"
+    "gulp-uglify": "^2.1.2",
+    "npm": "^5.8.0"
   }
 }
