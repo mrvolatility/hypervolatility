@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="86px" height="68px" viewBox="0 0 86 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
     <title>shape</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -37,24 +37,22 @@
             <feColorMatrix values="0 0 0 0 0.314369351   0 0 0 0 0.8883757   0 0 0 0 0.759899616  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="shape">
-            <g id="Path-9">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-1"></use>
-            </g>
-            <g id="Path-10">
-                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-3"></use>
-            </g>
-            <g id="Path-11">
-                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-5"></use>
-            </g>
-            <g id="Path-12">
-                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
-                <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-7"></use>
-            </g>
+    <g id="shape" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Path-9">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="Path-10">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-3"></use>
+        </g>
+        <g id="Path-11">
+            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-5"></use>
+        </g>
+        <g id="Path-12">
+            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            <use stroke-opacity="0.317566803" stroke="#FFFFFF" stroke-width="1" fill="#0D3563" fill-rule="evenodd" xlink:href="#path-7"></use>
         </g>
     </g>
 </svg>
