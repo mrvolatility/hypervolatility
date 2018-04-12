@@ -73,7 +73,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-admin
-  kramdown
   pygments.rb
   rb-fsevent
   rb-inotify
