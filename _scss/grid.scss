@@ -6,8 +6,9 @@ $perspective: 200px;
 $rotation: 70deg;
 
 #overflow-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
